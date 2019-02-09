@@ -8,8 +8,9 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     MediaPlayer mediaPlayer;
-    Button btn ;
+    Button btn;
     String temTag;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sayPhrases(View view) {
-         btn = (Button) findViewById(view.getId());
-         temTag = (String) btn.getTag();
+        btn = (Button) findViewById(view.getId());
+        temTag = (String) btn.getTag();
         switch (temTag) {
             case ("1"):
                 mediaPlayer = MediaPlayer.create(this, R.raw.hello);
@@ -27,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
                     public void onCompletion(MediaPlayer mp) {
                         mp.release();
 
-                    };
+                    }
+
                 });
                 break;
             case ("2"):
@@ -37,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onCompletion(MediaPlayer mp) {
                         mp.release();
 
-                    };
+                    }
                 });
 
                 break;
@@ -49,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onCompletion(MediaPlayer mp) {
                         mp.release();
 
-                    };
+                    }
                 });
                 break;
 
@@ -60,7 +62,8 @@ public class MainActivity extends AppCompatActivity {
                     public void onCompletion(MediaPlayer mp) {
                         mp.release();
 
-                    };
+                    }
+
                 });
 
                 break;
@@ -71,7 +74,8 @@ public class MainActivity extends AppCompatActivity {
                     public void onCompletion(MediaPlayer mp) {
                         mp.release();
 
-                    };
+                    }
+
                 });
                 break;
             case ("6"):
@@ -81,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onCompletion(MediaPlayer mp) {
                         mp.release();
 
-                    };
+                    }
                 });
                 break;
             case ("7"):
@@ -91,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onCompletion(MediaPlayer mp) {
                         mp.release();
 
-                    };
+                    }
                 });
                 break;
             case ("8"):
@@ -101,7 +105,9 @@ public class MainActivity extends AppCompatActivity {
                     public void onCompletion(MediaPlayer mp) {
                         mp.release();
 
-                    };
+                    }
+
+
                 });
                 break;
 
