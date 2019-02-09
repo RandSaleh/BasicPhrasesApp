@@ -23,36 +23,86 @@ public class MainActivity extends AppCompatActivity {
             case ("1"):
                 mediaPlayer = MediaPlayer.create(this, R.raw.hello);
                 mediaPlayer.start();
+                mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                    public void onCompletion(MediaPlayer mp) {
+                        mp.release();
+
+                    };
+                });
                 break;
             case ("2"):
                 mediaPlayer = MediaPlayer.create(this, R.raw.goodevening);
                 mediaPlayer.start();
+                mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                    public void onCompletion(MediaPlayer mp) {
+                        mp.release();
+
+                    };
+                });
+
                 break;
 
             case ("3"):
                 mediaPlayer = MediaPlayer.create(this, R.raw.doyouspeakenglish);
                 mediaPlayer.start();
+                mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                    public void onCompletion(MediaPlayer mp) {
+                        mp.release();
+
+                    };
+                });
                 break;
 
             case ("4"):
                 mediaPlayer = MediaPlayer.create(this, R.raw.howareyou);
                 mediaPlayer.start();
+                mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                    public void onCompletion(MediaPlayer mp) {
+                        mp.release();
+
+                    };
+                });
+
                 break;
             case ("5"):
-                mediaPlayer = MediaPlayer.create(this, R.raw.howareyou);
-                mediaPlayer.start();
-                break;
-            case ("6"):
                 mediaPlayer = MediaPlayer.create(this, R.raw.please);
                 mediaPlayer.start();
+                mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                    public void onCompletion(MediaPlayer mp) {
+                        mp.release();
+
+                    };
+                });
                 break;
-            case ("7"):
+            case ("6"):
                 mediaPlayer = MediaPlayer.create(this, R.raw.welcome);
                 mediaPlayer.start();
+                mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                    public void onCompletion(MediaPlayer mp) {
+                        mp.release();
+
+                    };
+                });
+                break;
+            case ("7"):
+                mediaPlayer = MediaPlayer.create(this, R.raw.ilivein);
+                mediaPlayer.start();
+                mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                    public void onCompletion(MediaPlayer mp) {
+                        mp.release();
+
+                    };
+                });
                 break;
             case ("8"):
                 mediaPlayer = MediaPlayer.create(this, R.raw.mynameis);
                 mediaPlayer.start();
+                mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                    public void onCompletion(MediaPlayer mp) {
+                        mp.release();
+
+                    };
+                });
                 break;
 
         }

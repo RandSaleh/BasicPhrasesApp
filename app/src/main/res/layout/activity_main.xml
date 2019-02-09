@@ -19,70 +19,92 @@
 
         <Button
             android:id="@+id/button1"
-            android:text="Hello"
+            style="@style/Button"
             android:gravity="fill"
-            app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
             android:onClick="sayPhrases"
             android:tag="1"
-            />
+            android:text="Hello"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
         <Button
             android:id="@+id/button2"
-            android:text="Good evening "
+            style="@style/Button"
             android:gravity="fill"
-            app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
             android:onClick="sayPhrases"
-            android:tag="2"/>
+            android:tag="2"
+            android:text="Good evening "
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/button3"
-            android:text="Do you speak english"
             android:gravity="fill"
+            android:onClick="sayPhrases"
+            android:tag="3"
+            android:textSize="15dp"
+            android:text=" Do you \n
+            Speak English"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
-            android:onClick="sayPhrases"
-            android:tag="3"/>
+            style="@style/Button"
+            />
+
         <Button
             android:id="@+id/button4"
-            android:text="How are you "
+            android:background="@color/colorPrimary"
             android:gravity="fill"
+            android:onClick="sayPhrases"
+            android:tag="4"
+            android:text="How are you "
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
-            android:onClick="sayPhrases"
-            android:tag="4"/>
+            style="@style/Button"/>
+
         <Button
             android:id="@+id/button5"
-            android:text="Please"
+            style="@style/Button"
             android:gravity="fill"
-            app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
             android:onClick="sayPhrases"
-            android:tag="5"/>
+            android:tag="5"
+            android:text="Please"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
         <Button
             android:id="@+id/button6"
-            android:text="Welcome"
+            android:background="@color/colorPrimary"
             android:gravity="fill"
+            android:onClick="sayPhrases"
+            android:tag="6"
+            android:text="Welcome"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
-            android:onClick="sayPhrases"
-            android:tag="6"/>
+            style="@style/Button"/>
+
         <Button
             android:id="@+id/button7"
-            android:text="I live in "
+            style="@style/Button"
             android:gravity="fill"
-            app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
             android:onClick="sayPhrases"
-            android:tag="7"/>
+            android:tag="7"
+            android:text="I live in "
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
         <Button
             android:id="@+id/button8"
-            android:text="My name is "
+            style="@style/Button"
             android:gravity="fill"
-            app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
             android:onClick="sayPhrases"
-            android:tag="8"/>
+            android:tag="8"
+            android:text="My name is "
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
 
     </android.support.v7.widget.GridLayout>
 </android.support.constraint.ConstraintLayout>
