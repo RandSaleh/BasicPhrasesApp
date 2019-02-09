@@ -19,53 +19,70 @@
 
         <Button
             android:id="@+id/button1"
-            android:text="Button"
+            android:text="Hello"
             android:gravity="fill"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"/>
+            app:layout_rowWeight="1"
+            android:onClick="sayPhrases"
+            android:tag="1"
+            />
         <Button
             android:id="@+id/button2"
-            android:text="Button"
+            android:text="Good evening "
             android:gravity="fill"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"/>
+            app:layout_rowWeight="1"
+            android:onClick="sayPhrases"
+            android:tag="2"/>
 
         <Button
             android:id="@+id/button3"
-            android:text="Button"
+            android:text="Do you speak english"
             android:gravity="fill"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"/>
+            app:layout_rowWeight="1"
+            android:onClick="sayPhrases"
+            android:tag="3"/>
         <Button
             android:id="@+id/button4"
-            android:text="Button"
+            android:text="How are you "
             android:gravity="fill"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"/>
+            app:layout_rowWeight="1"
+            android:onClick="sayPhrases"
+            android:tag="4"/>
         <Button
             android:id="@+id/button5"
-            android:text="Button"
+            android:text="Please"
             android:gravity="fill"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"/>
+            app:layout_rowWeight="1"
+            android:onClick="sayPhrases"
+            android:tag="5"/>
         <Button
             android:id="@+id/button6"
-            android:text="Button"
+            android:text="Welcome"
             android:gravity="fill"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"/>
+            app:layout_rowWeight="1"
+            android:onClick="sayPhrases"
+            android:tag="6"/>
         <Button
             android:id="@+id/button7"
-            android:text="Button"
+            android:text="I live in "
             android:gravity="fill"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"/>
+            app:layout_rowWeight="1"
+            android:onClick="sayPhrases"
+            android:tag="7"/>
         <Button
             android:id="@+id/button8"
-            android:text="Button"
+            android:text="My name is "
             android:gravity="fill"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"/>
-        
+            app:layout_rowWeight="1"
+            android:onClick="sayPhrases"
+            android:tag="8"/>
+
     </android.support.v7.widget.GridLayout>
 </android.support.constraint.ConstraintLayout>
